@@ -1,0 +1,17 @@
+# Ignore Conda environments
+easyocr_env/
+torch_paddle_env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore results and JSON outputs
+easyocr_results.json
+paddleocr_results.json
+
+# Ignore IDE and system-specific files
+.vscode/
+.DS_Store
+Thumbs.db
